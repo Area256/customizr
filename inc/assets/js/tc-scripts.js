@@ -2372,7 +2372,7 @@ var TCParams = TCParams || {};
  *
  * Target the first letter of the first element found in the wrapper
  *
- * ========================================================== */
+ * =================================================== */
 ;(function ( $, window, document, undefined ) {
   //defaults
   var pluginName = 'addDropCap',
@@ -2940,12 +2940,12 @@ jQuery(function ($) {
         $('.tc-grid-figure').centerImages();
     }, 300 );
     //on resize
-    $(window).resize(function(){
+   /* $(window).resize(function(){
         //RECTANGULAR THUMBNAILS FOR POST LIST AND SINGLE POST VIEWS
         $('.tc-rectangular-thumb').centerImages( '.tc-rectangular-thumb > img' );
         //POST GRID IMAGES
         $('.tc-grid-figure').centerImages();
-    });
+    });*/
     //bind 'refresh-height' event (triggered from the customizer)
     $('.tc-rectangular-thumb').on('refresh-height' , function(){
         //RECTANGULAR THUMBNAILS FOR POST LIST AND SINGLE POST VIEWS
